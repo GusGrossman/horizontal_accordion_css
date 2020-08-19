@@ -1,0 +1,43 @@
+.container{
+  position:fixed;
+  right:0px;
+  width: 75%;
+  background-color: lightgreen;
+}
+
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover{
+    flex: 70;
+  }
+
+
+.item-1 { 
+  background-image: url('1.gif');
+}
+
+.item-2 { 
+  background-image: url('data/2.jpg');
+}
+
+.item-3 { 
+  background-image: url('data/3.jpg');
+}
+
+.item-4 { 
+  background-image: url('data/4.jpg');
+}
